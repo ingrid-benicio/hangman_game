@@ -14,5 +14,8 @@ def hangman():
     letras_usadas = set()
 
 
+    user_letra = input('Escolha uma letra: ').upper()
+
+
 jogador_input = input('Escolha uma letra: ')
 print(jogador_input)
